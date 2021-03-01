@@ -29,3 +29,5 @@ python
 > pip install bs4
 > 코딩(네이버 실시간 검색어 가져오기)
 > pip install google_images_download
+
+## 셀레니움으로 크롤링 하기
