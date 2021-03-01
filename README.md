@@ -31,3 +31,37 @@ python
 > pip install google_images_download
 
 ## 셀레니움으로 크롤링 하기
+
+1. 가상 환경 늘어 가기: venv 이용
+
+- https://docs.python.org/ko/3/library/venv.html
+
+```py
+python -m venv selenium
+cd selenium/Scripts # 이동
+activate # 가상환경 실행
+
+# F:\DEV_APP\python_poc\selenium\Scripts\Activate.ps1 파일을 CN=Python Software Foundation, O=Python
+# Software Foundation, L=Wolfeboro, S=New Hampshire, C=US이(가) 게시했지만 시스템에서 신뢰할 수
+# 없습니다. 신뢰된 게시자가 서명한 스크립트만 실행하십시오.
+# [V] 실행한 적 없음(V)  [D] 실행 안 함(D)  [R] 한 번 실행(R)  [A] 항상 실행(A)  [?] 도움말
+# (기본값은 "D"):A
+(selenium) ../selenium/Scripts>
+```
+
+2. 셀레늄, chromedriver 설치
+
+- (selenium) 가상 환경 내에서 설치
+  `pip install selenium`
+
+- chromedriver를 내 브라우저의 버전 값 확인 후 다운로드 함
+
+  > ex)chromedriver_win32.zip
+
+- selenium 가상 환경 폴더 내로 옮김
+
+- 동일 경로 내에 google.py[googleImg.py 로 지정함]라는 파이선 함수 만들어야 함
+
+3. 구글 이미지 크롤링 코드 작성
+
+- `python selenium example` 검색
