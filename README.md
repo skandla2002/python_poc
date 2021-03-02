@@ -65,3 +65,12 @@ activate # 가상환경 실행
 3. 구글 이미지 크롤링 코드 작성
 
 - `python selenium example` 검색
+- `python selenium 가상환경 이동 후 실행`
+
+```py
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("http://www.python.org")
+```
