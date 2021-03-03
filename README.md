@@ -19,3 +19,7 @@ python
 - IDLE: 메모장 + 파이썬에서 사용 / IDE: 메모장
 - pycharm 또는 vscode 사용
 - 실행: 파이썬 위에 > 로 실행 또는 터미널에서 `python hello.py` 로 실행
+
+- 명령어
+> python: 파이썬 코드 작성 가능한 것 나옴(종료는 Ctrl + Z 하고 enter)   
+> 
