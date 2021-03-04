@@ -74,3 +74,5 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome()
 driver.get("http://www.python.org")
 ```
+
+4. 구글 이미지 파일 생성 후 저장
